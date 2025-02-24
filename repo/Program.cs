@@ -22,6 +22,13 @@ class Program
 
             string choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                case "7":
+                    isRunning = false;
+                    break;
+            }
+
             Console.WriteLine("\nНажмите любую клавишу для продолжения...");
             Console.ReadKey();
         }
