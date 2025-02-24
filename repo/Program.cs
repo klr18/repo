@@ -22,6 +22,13 @@ class Program
 
             string choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                case "3":
+                    Console.WriteLine($"Результат A + B: {A + B}");
+                    break;
+            }
+
             Console.WriteLine("\nНажмите любую клавишу для продолжения...");
             Console.ReadKey();
         }
