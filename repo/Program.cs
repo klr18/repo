@@ -22,6 +22,16 @@ class Program
 
             string choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                case "6":
+                    if (B != 0)
+                        Console.WriteLine($"Результат A / B: {A / B}");
+                    else
+                        Console.WriteLine("Ошибка: деление на ноль.");
+                    break;
+            }
+
             Console.WriteLine("\nНажмите любую клавишу для продолжения...");
             Console.ReadKey();
         }
