@@ -22,6 +22,13 @@ class Program
 
             string choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                default:
+                    Console.WriteLine("Неверный выбор. Пожалуйста, выберите опцию от 1 до 7.");
+                    break;
+            }
+
             Console.WriteLine("\nНажмите любую клавишу для продолжения...");
             Console.ReadKey();
         }
