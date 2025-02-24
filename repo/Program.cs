@@ -24,6 +24,16 @@ class Program
 
             switch (choice)
             {
+                case "6":
+                    if (B != 0)
+                        Console.WriteLine($"Результат A / B: {A / B}");
+                    else
+                        Console.WriteLine("Ошибка: деление на ноль.");
+                    break;
+            }
+
+            switch (choice)
+            {
                 case "3":
                     Console.WriteLine($"Результат A + B: {A + B}");
                     break;
