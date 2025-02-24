@@ -22,6 +22,14 @@ class Program
 
             string choice = Console.ReadLine();
 
+            switch (choice)
+            {
+                case "1":
+                    Console.Write("Введите значение для A: ");
+                    A = Convert.ToDouble(Console.ReadLine());
+                    break;
+            }
+
             Console.WriteLine("\nНажмите любую клавишу для продолжения...");
             Console.ReadKey();
         }
