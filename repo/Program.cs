@@ -24,6 +24,13 @@ class Program
 
             switch (choice)
             {
+                case "5":
+                    Console.WriteLine($"Результат A * B: {A * B}");
+                    break;
+            }
+
+            switch (choice)
+            {
                 case "2":
                     Console.Write("Введите значение для B: ");
                     B = Convert.ToDouble(Console.ReadLine());
