@@ -24,6 +24,13 @@ class Program
 
             switch (choice)
             {
+                case "4":
+                    Console.WriteLine($"Результат A - B: {A - B}");
+                    break;
+            }
+
+            switch (choice)
+            {
                 case "5":
                     Console.WriteLine($"Результат A * B: {A * B}");
                     break;
